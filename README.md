@@ -18,9 +18,9 @@ Climate change is one of the defining challenges of our time, and individual act
 
 | Category | Technology |
 |-----------|-------------|
-| **Frontend** | [Bolt.new](https://bolt.new) (Vite + TypeScript + Tailwind CSS) |
+| **Frontend** | Vite + TypeScript + Tailwind CSS |
 | **Backend / Database** | [Supabase](https://supabase.com/) (PostgreSQL + Auth + Realtime) |
-| **Hosting** | Vercel / Netlify (optional deployment) |
+| **Hosting** | Vercel |
 | **Version Control** | Git & GitHub |
 
 ---
