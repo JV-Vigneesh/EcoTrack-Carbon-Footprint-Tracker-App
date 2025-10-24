@@ -149,26 +149,6 @@ Then open: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 📂 Project Structure
-
-```
-EcoTrack/
-├── src/
-│   ├── components/       # UI components
-│   ├── pages/            # App pages (Home, Dashboard, Log Activity)
-│   ├── utils/            # Carbon calculation logic & helpers
-│   ├── services/         # Supabase API integration
-│   ├── assets/           # Icons, images, styles
-│   └── main.tsx          # App entry
-├── public/
-├── package.json
-├── tsconfig.json
-├── tailwind.config.js
-└── README.md
-```
-
----
-
 ## 💡 Future Enhancements
 
 * 🏆 Leaderboards for top eco-friendly users.
