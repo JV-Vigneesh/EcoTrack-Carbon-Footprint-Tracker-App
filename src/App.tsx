@@ -1,9 +1,12 @@
+import { useState } from 'react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
+import Home from './components/Home';
 import AuthForm from './components/AuthForm';
 import MainApp from './components/MainApp';
 
 function AppContent() {
   const { user, loading } = useAuth();
+  const [showAuth, setShowAuth] = useState(false);
 
   if (loading) {
     return (
@@ -13,7 +16,11 @@ function AppContent() {
     );
   }
 
-  return user ? <MainApp /> : <AuthForm />;
+  if (user) {
+    return <MainApp />;
+  }
+
+  return showAuth ? <AuthForm /> : <Home onGetStarted={() => setShowAuth(true)} />;
 }
 
 function App() {
